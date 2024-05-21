@@ -1,0 +1,14 @@
+{
+    "eslint.validate": [
+      "javascript",
+      "javascriptvue",
+      "vue"
+    ],
+    "eslint.format.enable": true,
+    "editor.fontFamily": "Monaco",
+    "editor.fontWeight": 400,
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1.4,
+    "angular.enable-strict-mode-prompt": false,
+  }
