@@ -5,10 +5,19 @@
       "vue"
     ],
     "eslint.format.enable": true,
-    "editor.fontFamily": "Monaco",
+    "editor.fontFamily": "JetBrains Mono",
     "editor.fontWeight": 400,
-    "editor.fontSize": 15,
+    "editor.fontSize": 17,
+    "editor.lineHeight": 30,
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.lineHeight": 1.4,
     "angular.enable-strict-mode-prompt": false,
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "css.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownAtRules": "ignore"
   }
