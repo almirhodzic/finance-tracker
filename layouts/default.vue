@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto max-w-4xl">
+  <div class="container mx-auto max-w-4xl px-8">
     <AppHeader />
-    <main class="my-10">
+    <main class="my-8">
       <slot />
     </main>
   </div>
@@ -20,7 +20,7 @@ useHead({
     },
     {
       rel: 'stylesheet',
-      href: 'https://fonts.googleapis.com/css2?family=Inter&display=swap',
+      href: 'https://fonts.googleapis.com/css2?family=Plus%20Jakarta%20Sans&display=swap',
       crossorigin: ''
     }
   ]
@@ -30,7 +30,7 @@ useHead({
 <style>
 /* Set the font family for the entire site */
 body {
-  font-family: 'Inter';
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 /* Set the background color for the entire site */
 body {
